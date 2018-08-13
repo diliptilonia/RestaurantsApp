@@ -43,8 +43,10 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tblMenuOptions.backgroundColor = UIColor.orange
+//        tblMenuOptions.backgroundColor = UIColor.orange
         tblMenuOptions.tableFooterView = UIView()
+            tblMenuOptions.backgroundView = UIImageView(image: UIImage(named: "bg.png"))
+
 //        tblMenuOptions.estimatedRowHeight = 77
         // Do any additional setup after loading the view.
     }
@@ -62,7 +64,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func updateArrayMenuOptions(){
         arrayMenuOptions.append(["title":"Home", "icon":"HomeIcon"])
         arrayMenuOptions.append(["title":"Profile", "icon":"profile"])
-        arrayMenuOptions.append(["title":"MyBooking", "icon":"MyBookingIcon"])
+        arrayMenuOptions.append(["title":"My Booking", "icon":"MyBookingIcon"])
         arrayMenuOptions.append(["title":"Feedback", "icon":"FeedbackIcon"])
         arrayMenuOptions.append(["title":"Contact", "icon":"ContactIcon"])
         arrayMenuOptions.append(["title":"Logout", "icon":"LogoutIcon"])
@@ -76,7 +78,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if (self.delegate != nil) {
             var index = Int32(button.tag)
             if(button == self.btnCloseMenuOverlay){
-                index = -1
+                index = 1
             }
             delegate?.slideMenuItemSelectedAtIndex(index)
         }

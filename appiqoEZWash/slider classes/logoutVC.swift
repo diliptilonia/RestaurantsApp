@@ -12,6 +12,8 @@ class logoutVC: UIViewController {
 
     @IBOutlet weak var logOutOutlet: UIButton!
     @IBOutlet weak var profilePic: UIImageView!
+    //    @IBOutlet weak var logOutOutlet: UIButton!
+//    @IBOutlet weak var profilePic: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

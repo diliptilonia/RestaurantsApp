@@ -10,9 +10,22 @@ import UIKit
 
 class contactVC: UIViewController {
 
+    @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var secondView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Reaching here")
 
+        
+        firstView.layer.cornerRadius = 25
+        firstView.clipsToBounds = true
+        firstView.layer.borderColor = UIColor.white.cgColor
+        firstView.layer.borderWidth = 2
+        
+        secondView.layer.cornerRadius = 25
+        secondView.clipsToBounds = true
+        secondView.layer.borderColor = UIColor.white.cgColor
+        secondView.layer.borderWidth = 2
         // Do any additional setup after loading the view.
     }
 

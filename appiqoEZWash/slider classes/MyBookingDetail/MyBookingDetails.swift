@@ -11,7 +11,7 @@ import UIKit
 class MyBookingDetails: UIViewController {
     
     @IBOutlet weak var orderImage: UIImageView?
-    @IBOutlet weak var OrderStatuData: UILabel?
+//    @IBOutlet weak var OrderStatuData: UILabel?
     @IBOutlet weak var titleData: UILabel?
     @IBOutlet weak var priceData: UILabel?
     @IBOutlet weak var dateData: UILabel?
@@ -29,11 +29,11 @@ class MyBookingDetails: UIViewController {
         super.viewDidLoad()
         print("Working")
         titleData?.text = titleLab
-        OrderStatuData?.text = String("Booking \(orderStatuLab)")
+//        OrderStatuData?.text = String("Booking \(orderStatuLab)")
         priceData?.text = priceLab
         dateData?.text = dateLab
         addressData?.text = addressLab
-       orderImage?.image = imageLab
+       orderImage?.image = #imageLiteral(resourceName: "receipt")
 
     }
 

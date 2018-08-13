@@ -51,11 +51,18 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             
             break
         case 4:
+            print("Contact US\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("contactVC")
+            print("Reaching here")
+            break
+        case 5:
             print("LogOut\n", terminator: "")
             
-            self.openViewControllerBasedOnIdentifier("Logout")
+            self.openViewControllerBasedOnIdentifier("logoutVC")
             
             break
+        
         default:
             print("default\n", terminator: "")
         }
@@ -75,8 +82,11 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
     
     func addSlideMenuButton(){
         let btnShowMenu = UIButton(type: UIButtonType.system)
-        btnShowMenu.setImage(self.defaultMenuImage(), for: UIControlState())
+//        playButton.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
+
+        btnShowMenu.setImage(#imageLiteral(resourceName: "menuButton"), for: UIControlState())
         btnShowMenu.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        
         btnShowMenu.addTarget(self, action: #selector(BaseViewController.onSlideMenuButtonPressed(_:)), for: UIControlEvents.touchUpInside)
         let customBarItem = UIBarButtonItem(customView: btnShowMenu)
         self.navigationItem.leftBarButtonItem = customBarItem;

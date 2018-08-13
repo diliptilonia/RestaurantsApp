@@ -9,11 +9,12 @@
 import UIKit
 
 class myBookingCustomCell: UITableViewCell {
-
+    
+    
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var price: UILabel!
-    @IBOutlet weak var status: UILabel!
+//    @IBOutlet weak var status: UILabel!
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var imageOfWashType: UIImageView!
     
@@ -23,7 +24,7 @@ class myBookingCustomCell: UITableViewCell {
         imageOfWashType.image = booked.image
         address.text = booked.address
         price.text = booked.price
-        status.text = booked.orderStatus
+//        status.text = booked.orderStatus
         date.text = booked.date
     }
  

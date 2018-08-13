@@ -30,15 +30,15 @@ class myBookingClass {
     var title: String
     var address: String
     var price: String
-    var orderStatus: String
+//    var orderStatus: String
     var date: String
     
-    init(image: UIImage, title:String, address:String, price:String, orderStatus: String, date:String) {
+    init(image: UIImage, title:String, address:String, price:String,  date:String) {
         self.image = image
         self.title = title
         self.address = address
         self.price = price
-        self.orderStatus = orderStatus
+//        self.orderStatus = orderStatus
         self.date = date
     }
     
