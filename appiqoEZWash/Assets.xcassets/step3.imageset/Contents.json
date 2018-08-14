@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "dp.png",
+      "filename" : "step3.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Group 497@2x.png",
+      "filename" : "Group 507@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Group 497@3x.png",
+      "filename" : "Group 507@3x.png",
       "scale" : "3x"
     }
   ],

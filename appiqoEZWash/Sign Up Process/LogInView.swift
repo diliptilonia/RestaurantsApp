@@ -29,13 +29,15 @@ class LogInView: UIViewController {
     @IBOutlet weak var signUpView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
       
-        firstName.addBottomBorder()
-        lastName.addBottomBorder()
-        email.addBottomBorder()
-        password.addBottomBorder()
-        confirmPassword.addBottomBorder()
-        phoneNumber.addBottomBorder()
+//        firstName.addBottomBorder()
+//        lastName.addBottomBorder()
+//        email.addBottomBorder()
+//        password.addBottomBorder()
+//        confirmPassword.addBottomBorder()
+//        phoneNumber.addBottomBorder()
         
         
         signUpView.layer.cornerRadius = 15

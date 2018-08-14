@@ -57,6 +57,8 @@
 		89B68BB6211C1F5500B00B9E /* ExtentionOfUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B68BB5211C1F5500B00B9E /* ExtentionOfUIVC.swift */; };
 		89B68BD8211C562700B00B9E /* MyBookingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B68BD7211C562700B00B9E /* MyBookingDetails.swift */; };
 		89BC846921143E4D00FC9306 /* locationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC846821143E4D00FC9306 /* locationDetailVC.swift */; };
+		89C24A5C21219AD0005653E8 /* BookTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C24A5B21219AD0005653E8 /* BookTable.swift */; };
+		89C24A5E2121B4AD005653E8 /* BookingConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C24A5D2121B4AD005653E8 /* BookingConfirmation.swift */; };
 		89F2AD0121180AA5003AA9A4 /* scheduleCustomeCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AD0021180AA5003AA9A4 /* scheduleCustomeCell2.swift */; };
 		89F2AD03211824AC003AA9A4 /* myBookingCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AD02211824AC003AA9A4 /* myBookingCustomCell.swift */; };
 		89F2AD0521183092003AA9A4 /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AD0421183092003AA9A4 /* mapPage.swift */; };
@@ -117,6 +119,8 @@
 		89B68BB5211C1F5500B00B9E /* ExtentionOfUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionOfUIVC.swift; sourceTree = "<group>"; };
 		89B68BD7211C562700B00B9E /* MyBookingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingDetails.swift; sourceTree = "<group>"; };
 		89BC846821143E4D00FC9306 /* locationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationDetailVC.swift; sourceTree = "<group>"; };
+		89C24A5B21219AD0005653E8 /* BookTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTable.swift; sourceTree = "<group>"; };
+		89C24A5D2121B4AD005653E8 /* BookingConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmation.swift; sourceTree = "<group>"; };
 		89F2AD0021180AA5003AA9A4 /* scheduleCustomeCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCustomeCell2.swift; sourceTree = "<group>"; };
 		89F2AD02211824AC003AA9A4 /* myBookingCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBookingCustomCell.swift; sourceTree = "<group>"; };
 		89F2AD0421183092003AA9A4 /* mapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPage.swift; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				89A5A074211695C6004F6214 /* myBookingVC.swift */,
 				89B68BD7211C562700B00B9E /* MyBookingDetails.swift */,
 				89F2AD02211824AC003AA9A4 /* myBookingCustomCell.swift */,
+				89C24A5D2121B4AD005653E8 /* BookingConfirmation.swift */,
+				89C24A5B21219AD0005653E8 /* BookTable.swift */,
 			);
 			path = MyBookingDetail;
 			sourceTree = "<group>";
@@ -441,6 +447,7 @@
 				89F2AD0521183092003AA9A4 /* mapPage.swift in Sources */,
 				894A80B3211DAAF200717D95 /* forgotPassword.swift in Sources */,
 				89A5A07721169672004F6214 /* feedbackVC.swift in Sources */,
+				89C24A5E2121B4AD005653E8 /* BookingConfirmation.swift in Sources */,
 				89A5A073211695B0004F6214 /* profileVC.swift in Sources */,
 				89A5A08921176BF6004F6214 /* washingType.swift in Sources */,
 				891A09AA2113F6EC00E881F7 /* pageVC.swift in Sources */,
@@ -453,6 +460,7 @@
 				89A5A0812116F5D5004F6214 /* thirdVC.swift in Sources */,
 				89215E58211329120044A3FD /* AppDelegate.swift in Sources */,
 				89BC846921143E4D00FC9306 /* locationDetailVC.swift in Sources */,
+				89C24A5C21219AD0005653E8 /* BookTable.swift in Sources */,
 				89A5A0792116968A004F6214 /* contactVC.swift in Sources */,
 				89A5A0A92118069B004F6214 /* washingTypeTable2.swift in Sources */,
 			);

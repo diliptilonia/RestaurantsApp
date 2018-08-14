@@ -25,9 +25,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.emailTextField.addBottomBorder()
-        self.passwordTextField.addBottomBorder()
-        
+//        self.emailTextField.addBottomBorder()
+//        self.passwordTextField.addBottomBorder()
+//        
         
 //        var bottomLine = CALayer()
 //        bottomLine.frame = CGRectMake(0.0, emailTextField.frame.height - 1, emailTextField.frame.width, 1.0)
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         logInButtonOutlet.layer.borderWidth = 2
         
         
-        sigupButtonOutlet.layer.cornerRadius = 30
+        sigupButtonOutlet.layer.cornerRadius = 24
         sigupButtonOutlet.clipsToBounds = true
         sigupButtonOutlet.layer.borderColor = UIColor.white.cgColor
         sigupButtonOutlet.layer.borderWidth = 2
@@ -77,6 +77,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    @IBAction func logInButtonTapped(_ sender: UIButton) {
+        print("Log in button is working")
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "sideMenu") as! sideMenu
+        self.navigationController?.pushViewController(vc, animated: true)
+        print("Log in button is not working")
+
+    }
     @IBAction func forgotPassword(_ sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "forgotPassword") as! forgotPassword

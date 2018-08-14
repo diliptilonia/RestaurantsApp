@@ -32,6 +32,9 @@ class sideMenu: BaseViewController {
     
     @IBAction func scheduleButton(_ sender: UIButton) {
         print("this is working")
+        let st = UIStoryboard(name: "Main", bundle: nil)
+        let vc = st.instantiateViewController(withIdentifier: "BookTable")
+        self.navigationController?.pushViewController(vc, animated: true)
        
     }
     

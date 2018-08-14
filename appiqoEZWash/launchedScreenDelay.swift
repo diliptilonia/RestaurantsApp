@@ -61,6 +61,10 @@ class launchedScreenDelay: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func showSimpleHUD() {
         
         let hud = JGProgressHUD(style: .dark)
